@@ -1,0 +1,15 @@
+{
+  "name": "sessami-assignments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.68.0",
+    "scss": "^0.2.4"
+  }
+}

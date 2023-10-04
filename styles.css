@@ -1,46 +1,52 @@
 * {
-	box-sizing: border-box;
-	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 body {
-	background-color: #6cb4ee;
-	color: white;
-	margin-left: 15%;
-	margin-top: 3%;
+  background-color: #6cb4ee;
+  color: white;
+  margin-left: 15%;
+  margin-top: 3%;
 }
 
 h1 {
-	font-weight: 500;
+  font-weight: 500;
 }
+
 h2 {
-	font-weight: 100;
+  font-weight: 100;
 }
+
 .description {
-	margin-top: -20px;
-	margin-bottom: 5px;
+  margin-top: -20px;
+  margin-bottom: 5px;
 }
+
 a {
-	text-decoration: none;
-	color: white;
+  text-decoration: none;
+  color: white;
 }
+
 table {
-	width: 80%;
-	height: 50vh;
-	border-collapse: collapse;
+  width: 80%;
+  height: 50vh;
+  border-collapse: collapse;
 }
+
 tr {
-	text-align: center;
+  text-align: center;
 }
 
 tr th {
-	border-bottom: 1px solid white;
+  border-bottom: 1px solid white;
 }
-.table tr:nth-child(odd):not(:first-child) {
-	background-color: white;
-	color: black;
+
+.table tbody tr:nth-child(even) {
+  background-color: white;
+  color: black;
 }
-.table tr:nth-child(odd) td:not(:first-child) a {
-	color: black;
-}
+
+.table tbody tr:nth-child(even) a {
+  color: black;
+}/*# sourceMappingURL=styles.css.map */
