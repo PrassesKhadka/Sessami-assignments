@@ -11,7 +11,7 @@
 	left: 0;
 	z-index: 1000;
 	background-color: white;
-	border-bottom: 1px solid slategray;
+	padding: 0 5vw;
 }
 .navbar ul {
 	display: flex;
