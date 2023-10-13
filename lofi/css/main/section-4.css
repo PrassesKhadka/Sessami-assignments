@@ -18,7 +18,7 @@
 }
 .section-4 h2 {
 	font-weight: 600;
-	font-size: 1.25rem;
+	font-size: 1.75rem;
 	line-height: 1.75rem;
 	margin-top: 0.5rem;
 }
@@ -31,7 +31,11 @@
 .section-4 button {
 	margin: 0.75rem 0;
 }
-
+@media screen and (min-width: 768px) {
+	.section-4 button {
+		width: 25%;
+	}
+}
 /* Discover cities grid */
 .section-4 section {
 	display: grid;
@@ -41,7 +45,7 @@
 	margin-top: 2rem;
 }
 .section-4 section figure {
-	width: 5rem;
+	width: clamp(5rem);
 }
 .section-4 section figure img {
 	width: 100%;
