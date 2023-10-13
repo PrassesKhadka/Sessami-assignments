@@ -1,0 +1,23 @@
+/* Reusable components kept here */
+
+/* Button component */
+.button {
+	background: linear-gradient(99.35deg, #e8336a 8.18%, #c12a58 92.24%);
+	border-radius: 32px;
+	padding: 8px 24px 8px 24px;
+	text-align: center;
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+/* Hidden class */
+.hidden {
+	display: none;
+}
+
+/* display class */
+.display {
+	display: block;
+}

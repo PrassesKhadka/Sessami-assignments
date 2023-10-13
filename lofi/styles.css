@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	border: 0;
+	outline: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Using custom fonts->Google Fonts */
+@font-face {
+	font-family: "Jakarta";
+	src: url("./fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf")
+		format("ttf");
+}
+
+body {
+	margin: 0 5vw;
+	font-size: 62.5%;
+}
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+button {
+	background-color: white;
+}

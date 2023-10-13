@@ -1,0 +1,19 @@
+.section-2 article {
+}
+
+.section-2 article div {
+	display: flex;
+	justify-content: space-between;
+}
+.section-2 div h2 {
+}
+.section-2 section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.section-2 figure img {
+	display: inline-block;
+	width: 100%;
+	max-width: 298px;
+}
