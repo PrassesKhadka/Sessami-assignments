@@ -3,15 +3,16 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Project-1</title>
+		<title>SESSAMI</title>
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+		<link href="./css/components.css" rel="stylesheet" />
 		<link href="./styles.css" rel="stylesheet" />
 		<link href="./css/navbar.css" rel="stylesheet" />
 		<link href="./css/section-1.css" rel="stylesheet" />
 		<link href="./css/section-2.css" rel="stylesheet" />
-		<link href="./css/components.css" rel="stylesheet" />
+		<link href="./css/section-3.css" rel="stylesheet" />
 	</head>
 	<body>
 		<!-- Navbar -->
@@ -19,10 +20,12 @@
 			<ul>
 				<li>
 					<header>
-						<img
-							src="/images/sessami-logo.png"
-							alt="sessami logo"
-							title="sessami home" />
+						<a href="#" title="Go to the Sessami home page">
+							<img
+								src="/images/sessami-logo.png"
+								alt="sessami logo"
+								title="Sessami logo" />
+						</a>
 					</header>
 				</li>
 				<li><i class="fa-solid fa-magnifying-glass"></i></li>
@@ -52,145 +55,162 @@
 
 			<!-- section-2 -->
 
-			<section class="section-2">
-				<!-- What's happening locally -->
+			<!-- What's happening locally -->
+			<article class="section-2">
+				<!-- texts -->
+				<div>
+					<h2>
+						Whats happening locally in <br />
+						<em>United Kingdom</em>
+					</h2>
+					<a href="#" title="We're currenty only operating in the UK"
+						>Why here?</a
+					>
+					<button class="button">All events</button>
+				</div>
 
-				<article>
-					<div>
-						<h2>
-							Whats happening locally in <br>
-                            <em>United Kingdom</em>
-							<a>Why here?</a>
-						</h2>
-						<button class="button">All events</button>
-					</div>
-					<section>
-						<figure>
-							<img
-								src="/images/grids/1.png"
-								alt="Connecting Cryoden"
-								title="Connecting Cryoden" />
-							<figcaption>
-								<h2>Connecting Cryoden</h2>
-								<time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
-								<h3>Lsbu Crydon Campus</h3>
-								<em>Start at $40</em>
-							</figcaption>
-						</figure>
-						<figure>
-							<img src="/images/grids/2.png" alt="" title="" />
-							<figcaption>
-								<h2>Connecting Cryoden</h2>
-								<time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
-								<h3>Lsbu Crydon Campus</h3>
-								<em>Start at $40</em>
-							</figcaption>
-						</figure>
-						<figure>
-							<img src="/images/grids/3.png" alt="" title="" />
-							<figcaption>
-								<h2>Connecting Cryoden</h2>
-								<time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
-								<h3>Lsbu Crydon Campus</h3>
-								<em>Start at $40</em>
-							</figcaption>
-						</figure>
-						<figure>
-							<img src="/images/grids/4.png" alt="" title="" />
-							<figcaption>
-								<h2>Connecting Cryoden</h2>
-								<time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
-								<h3>Lsbu Crydon Campus</h3>
-								<em>Start at $40</em>
-							</figcaption>
-						</figure>
-						<figure>
-							<img src="/images/grids/5.png" alt="" title="" />
-							<figcaption>
-								<h2>Connecting Cryoden</h2>
-								<time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
-								<h3>Lsbu Crydon Campus</h3>
-								<em>Start at $40</em>
-							</figcaption>
-						</figure>
-						<figure>
-							<img src="/images/grids/6.png" alt="" title="" />
-							<figcaption>
-								<h2>Connecting Cryoden</h2>
-								<time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
-								<h3>Lsbu Crydon Campus</h3>
-								<em>Start at $40</em>
-							</figcaption>
-						</figure>
-						<figure>
-							<img src="/images/grids/7.png" alt="" title="" />
-							<figcaption>
-								<h2>Connecting Cryoden</h2>
-								<time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
-								<h3>Lsbu Crydon Campus</h3>
-								<em>Start at $40</em>
-							</figcaption>
-						</figure>
-						<figure>
-							<img src="/images/grids/8.png" alt="" title="" />
-							<figcaption>
-								<h2>Connecting Cryoden</h2>
-								<time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
-								<h3>Lsbu Crydon Campus</h3>
-								<em>Start at $40</em>
-							</figcaption>
-						</figure>
-					</section>
-				</article>
+				<!-- Event grid "locally" -->
+				<section class="subsection-2">
+					<figure>
+						<img
+							src="/images/grids/1.png"
+							alt="Connecting Cryoden"
+							title="Connecting Cryoden" />
+						<figcaption>
+							<h2>Connecting Cryoden</h2>
+							<time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
+							<h3>Lsbu Crydon Campus</h3>
+							<em>Start at $40</em>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="/images/grids/2.png" alt="" title="" />
+						<figcaption>
+							<h2>Connecting Cryoden</h2>
+							<time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
+							<h3>Lsbu Crydon Campus</h3>
+							<em>Start at $40</em>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="/images/grids/3.png" alt="" title="" />
+						<figcaption>
+							<h2>Connecting Cryoden</h2>
+							<time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
+							<h3>Lsbu Crydon Campus</h3>
+							<em>Start at $40</em>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="/images/grids/4.png" alt="" title="" />
+						<figcaption>
+							<h2>Connecting Cryoden</h2>
+							<time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
+							<h3>Lsbu Crydon Campus</h3>
+							<em>Start at $40</em>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="/images/grids/5.png" alt="" title="" />
+						<figcaption>
+							<h2>Connecting Cryoden</h2>
+							<time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
+							<h3>Lsbu Crydon Campus</h3>
+							<em>Start at $40</em>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="/images/grids/6.png" alt="" title="" />
+						<figcaption>
+							<h2>Connecting Cryoden</h2>
+							<time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
+							<h3>Lsbu Crydon Campus</h3>
+							<em>Start at $40</em>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="/images/grids/7.png" alt="" title="" />
+						<figcaption>
+							<h2>Connecting Cryoden</h2>
+							<time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
+							<h3>Lsbu Crydon Campus</h3>
+							<em>Start at $40</em>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="/images/grids/8.png" alt="" title="" />
+						<figcaption>
+							<h2>Connecting Cryoden</h2>
+							<time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
+							<h3>Lsbu Crydon Campus</h3>
+							<em>Start at $40</em>
+						</figcaption>
+					</figure>
+				</section>
+			</article>
 
-				<!-- Horizontal line -->
-				<hr></hr>
+			<!-- Horizontal line -->
+			<hr />
 
+			<!-- Section-3 -->
+			<!-- <aside> for content that is tangentially related to the main content,
+				like this "Happening soon" section. -->
+			<aside class="section-2 section-3">
 				<!-- Happening soon -->
-				<article>
-					<h2>Happening soon</h2>
-					<section>
-                        <figure>
-                            <img src="./images/grids2/1.png" alt="Cello night" title="Cello night">
-                            <figcaption>
-                                <h2>Cello night</h2>
-                                <time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
-                                <h3>Park village street 5</h3>
-                                <em>Start at $45</em>
-                            </figcaption>
-                        </figure>
-                        <figure>
-                            <img src="./images/grids2/2.png" alt="Cello night" title="Cello night">
-                            <figcaption>
-                                <h2>Cello night</h2>
-                                <time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
-                                <h3>Park village street 5</h3>
-                                <em>Start at $45</em>
-                            </figcaption>
-                        </figure>
-                        <figure>
-                            <img src="./images/grids2/3.png" alt="Cello night" title="Cello night">
-                            <figcaption>
-                                <h2>Cello night</h2>
-                                <time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
-                                <h3>Park village street 5</h3>
-                                <em>Start at $45</em>
-                            </figcaption>
-                        </figure>
-                        <figure>
-                            <img src="./images/grids2/4.png" alt="Cello night" title="Cello night">
-                            <figcaption>
-                                <h2>Cello night</h2>
-                                <time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
-                                <h3>Park village street 5</h3>
-                                <em>Start at $45</em>
-                            </figcaption>
-                        </figure>
-                    </section>
-				</article>
-			</section>
+				<h2>Happening soon</h2>
 
-            <!-- Section-3 -->
+				<!-- Event grid Happening Soon -->
+				<section class="subsection-2">
+					<figure>
+						<img
+							src="./images/grids2/1.png"
+							alt="Cello night"
+							title="Cello night" />
+						<figcaption>
+							<h2>Cello night</h2>
+							<time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
+							<h3>Park village street 5</h3>
+							<em>Start at $45</em>
+						</figcaption>
+					</figure>
+					<figure>
+						<img
+							src="./images/grids2/2.png"
+							alt="Cello night"
+							title="Cello night" />
+						<figcaption>
+							<h2>Cello night</h2>
+							<time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
+							<h3>Park village street 5</h3>
+							<em>Start at $45</em>
+						</figcaption>
+					</figure>
+					<figure>
+						<img
+							src="./images/grids2/3.png"
+							alt="Cello night"
+							title="Cello night" />
+						<figcaption>
+							<h2>Cello night</h2>
+							<time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
+							<h3>Park village street 5</h3>
+							<em>Start at $45</em>
+						</figcaption>
+					</figure>
+					<figure>
+						<img
+							src="./images/grids2/4.png"
+							alt="Cello night"
+							title="Cello night" />
+						<figcaption>
+							<h2>Cello night</h2>
+							<time datetime="2023-7-27">Thu,Jul 27,3:00 PM</time>
+							<h3>Park village street 5</h3>
+							<em>Start at $45</em>
+						</figcaption>
+					</figure>
+				</section>
+			</aside>
 		</main>
 	</body>
 </html>

@@ -13,6 +13,21 @@
 	src: url("./fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf")
 		format("ttf");
 }
+@font-face {
+	font-family: "Figtree";
+	src: url("./fonts/Figtree/Figtree-VariableFont_wght.ttf") format("ttf");
+}
+
+/* General CSS */
+h1,
+h2,
+h3,
+p,
+em,
+strong {
+	font-family: "Jakarta", sans-serif;
+	font-style: unset;
+}
 
 body {
 	margin: 0 5vw;
@@ -23,7 +38,11 @@ li {
 }
 a {
 	text-decoration: none;
+	cursor: pointer;
 }
 button {
 	background-color: white;
+}
+button:hover {
+	cursor: pointer;
 }
