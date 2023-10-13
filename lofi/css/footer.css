@@ -1,1 +1,38 @@
 /* Footer's css */
+footer {
+	margin: 0 -5vw;
+	background-color: #f5f5f5;
+}
+
+.footer-content {
+	margin: 5rem 5vw 0 5vw;
+	padding-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.footer-content section {
+	margin: 1rem 0;
+}
+
+.footer-content section:first-child img {
+	display: inline-block;
+	margin-right: 0.25rem;
+}
+.footer-content h2 {
+	display: inline-block;
+	margin-bottom: 1rem;
+	font-weight: 700;
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+	color: #303030;
+}
+.footer-content a {
+	display: inline-block;
+	margin-bottom: 0.5rem;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.75rem;
+	color: #6b7280;
+}

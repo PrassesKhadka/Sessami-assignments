@@ -2,11 +2,11 @@
 class(for grid layout) can be reused 
 for this section as well*/
 
-.section-3 h2 {
+.happening {
 	display: inline-block;
 	margin-bottom: 1rem;
 	font-weight: 600;
 	font-size: 1.5rem;
 	line-height: 2rem;
-	color: black;
+	color: #303030;
 }
