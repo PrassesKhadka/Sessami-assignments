@@ -1,0 +1,55 @@
+.section-4 {
+	background-color: black;
+	color: white;
+	margin: 0 -5vw;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 5rem 5vw;
+}
+
+/* Texts  */
+.section-4 div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 100%;
+}
+.section-4 h2 {
+	font-weight: 600;
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+	margin-top: 0.5rem;
+}
+.section-4 p {
+	font-weight: 400;
+	font-size: 0.9rem;
+	line-height: 1rem;
+	margin-top: 0.5rem;
+}
+.section-4 button {
+	margin: 0.75rem 0;
+}
+
+/* Discover cities grid */
+.section-4 section {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+	width: 100%;
+	margin-top: 2rem;
+}
+.section-4 section figure {
+	width: 5rem;
+}
+.section-4 section figure img {
+	width: 100%;
+}
+.section-4 section figure figcaption {
+	font-weight: 600;
+	font-size: 1.25rem;
+	text-align: center;
+	line-height: 1.75rem;
+	margin-top: 0.5rem;
+}

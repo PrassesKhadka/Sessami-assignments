@@ -1,0 +1,89 @@
+.section-2 {
+	margin: 3rem 0;
+}
+
+.section-2 article div {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+}
+.section-2 div h2 {
+	display: inline;
+	font-weight: 100;
+	font-size: 1.125rem;
+	line-height: 1rem;
+	color: slategray;
+}
+.section-2 div em {
+	display: inline-block;
+	font-weight: 600;
+	font-size: 2.25rem;
+	line-height: 2.5rem;
+	color: black;
+}
+.section-2 div a {
+	display: block;
+	margin: 0.75rem 0;
+	font-weight: 700;
+	font-size: 1rem;
+	text-decoration: underline;
+	color: #cf4469;
+}
+.section-2 div button {
+	margin-bottom: 1rem;
+	width: 100%;
+}
+@media screen and (min-width: 768px) {
+	.section-2 div button {
+		margin-bottom: 1rem;
+		width: auto;
+	}
+}
+/* sub-section-2  */
+.subsection-2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 2rem;
+	/* To truncate the text */
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.subsection-2 figure {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+	box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+@media screen and (min-width: 768px) {
+	.subsection-2 figure {
+		width: 250px;
+	}
+}
+.subsection-2 figure img {
+	display: inline-block;
+	width: 100%;
+}
+.subsection-2 figcaption {
+	font-family: "Figtree";
+	margin: 1rem 0.25rem;
+}
+.subsection-2 figcaption h2 {
+	display: block;
+	font-size: 1.4rem;
+}
+.subsection-2 figcaption time {
+	font-size: 1rem;
+}
+.subsection-2 figcaption h3 {
+	font-size: 1.2rem;
+}
+.subsection-2 figcaption em {
+	font-size: 1rem;
+}
