@@ -1,3 +1,5 @@
+/* Navigation bar css */
+
 .navbar i {
 	font-size: 1rem;
 }
@@ -9,6 +11,7 @@
 	left: 0;
 	z-index: 1000;
 	background-color: white;
+	border-bottom: 1px solid slategray;
 }
 .navbar ul {
 	display: flex;
